@@ -3691,3 +3691,7 @@ input, select, textarea {
 		.cover {
 			object-fit: fill;
 		}
+
+		.introgif{
+			object-fit: cover;
+		}
