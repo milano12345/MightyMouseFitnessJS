@@ -3694,4 +3694,5 @@ input, select, textarea {
 
 		.introgif{
 			object-fit: cover;
+			height: 32rem;
 		}
