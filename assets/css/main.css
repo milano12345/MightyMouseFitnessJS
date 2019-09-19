@@ -3687,14 +3687,7 @@ input, select, textarea {
 			}
 
 	}
-
-	.videoIntro {
-		background-color: black;
-		overflow: hidden;
-		
-	  }
-
-	  video{
-		object-fit: fill;
-		height: 100%;
-	  }
+	  
+		.cover {
+			object-fit: fill;
+		}
