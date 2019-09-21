@@ -3697,7 +3697,7 @@ input, select, textarea {
 			min-height: 25rem;
 		}
 
-		video {
-			min-height: 20rem;
-		}
+video{
+	object-fit: cover;
+}
 /* HAPPY TRAILS */
