@@ -3694,7 +3694,7 @@ input, select, textarea {
 
 		.introgif{
 			object-fit: cover;
-			height: 32rem;
+			min-height: 25rem;
 		}
 
 		video {
