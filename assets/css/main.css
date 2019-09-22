@@ -2778,22 +2778,10 @@ input, select, textarea {
 				background-color: #726193;
 			}
 
-			.panel > *.color2 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-				background-size: 128px 128px, auto;
-				background-color: #e37b7c;
-			}
-
 			.panel > *.color3 {
 				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
 				background-color: #ffe4b4;
-			}
-
-			.panel > *.color4 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-				background-size: 128px 128px, auto;
-				background-color: #353865;
 			}
 
 			.panel > *.color1-alt {
@@ -3199,12 +3187,6 @@ input, select, textarea {
 					width: 100%;
 				}
 
-			.panel.color1 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-				background-size: 128px 128px, auto;
-				background-color: #726193;
-			}
-
 			.panel.color2 {
 				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
@@ -3241,11 +3223,6 @@ input, select, textarea {
 				background-color: #fedea6;
 			}
 
-			.panel.color4-alt {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
-				background-size: 128px 128px, auto;
-				background-color: #323459;
-			}
 
 	}
 
@@ -3423,8 +3400,8 @@ input, select, textarea {
 			.panel.spotlight .image img {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
-				-ms-object-fit: cover;
-				object-fit: cover;
+				-ms-object-fit: unset;
+				object-fit: unset;
 				display: block;
 				position: absolute;
 				top: 0;
